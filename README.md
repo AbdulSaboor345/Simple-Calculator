@@ -23,6 +23,6 @@ Division: Perform division of two numbers.
 Abdul Saboor
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the "License.txt" file for details.
 
 Feel free to customize it further according to your project's specific needs!
