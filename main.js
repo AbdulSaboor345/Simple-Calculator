@@ -1,32 +1,46 @@
-#! /usr/bin/env node
-// Importing inquirer
+#!/usr/bin/env node
+// Importing inquirer & Chalk
 import inquirer from "inquirer";
+import chalk from "chalk";
 // Printing a welcome message
-console.log("\x1b[33m" + "\n\tWelcome To \'Abdul Saboor\' - CLI Simple Calculator!\n" + "\x1b[0m");
-// Using Inquirer to ask questions to users 
+let line = chalk.gray('='.repeat(51));
+let wcMsg = `\n\t${line}\n${chalk.bold.blue("\tWelcome to Abdul Saboor - CLI Simple Calculator\n")}\t${line}\n`;
+console.log(wcMsg);
+// Prompting the user for 1st question
 let answers = await inquirer.prompt([
-    { message: "Enter First Number", type: "number", name: "firstNumber" },
-    { message: "Enter Second Number", type: "number", name: "secondNumber" },
+    { message: (chalk.cyan("Enter First Number:")), type: "number", name: "firstNumber" },
+]);
+// Line Break
+console.log("");
+// Prompting the user for 2nd question
+let answer2 = await inquirer.prompt([
+    { message: (chalk.cyan("Enter Second Number:")), type: "number", name: "secondNumber" }
+]);
+// Line Break
+console.log("");
+// Prompting the user for operation of their choice
+let options = await inquirer.prompt([
     {
-        message: "Select one operator to perform operation",
+        message: (chalk.yellow("Select one operator to perform operation")),
         type: "list",
         name: "operator",
         choices: ["Addition", "Subtraction", "Multiplication", "Division"],
     },
 ]);
+// Line Break
+console.log("");
 // Using If-Else for calculations
-if (answers.operator === "Addition") {
-    console.log(answers.firstNumber + answers.secondNumber);
+if (options.operator === "Addition") {
+    console.log(answers.firstNumber + answer2.secondNumber);
 }
-else if (answers.operator === "Subtraction") {
-    console.log(answers.firstNumber - answers.secondNumber);
+else if (options.operator === "Subtraction") {
+    console.log(answers.firstNumber - answer2.secondNumber);
 }
-else if (answers.operator === "Multiplication") {
-    console.log(answers.firstNumber * answers.secondNumber);
+else if (options.operator === "Multiplication") {
+    console.log(answers.firstNumber * answer2.secondNumber);
 }
-else if (answers.operator === "Division") {
-    console.log(answers.firstNumber / answers.secondNumber);
+else if (options.operator === "Division") {
+    console.log(answers.firstNumber / answer2.secondNumber);
 }
-else {
-    console.log("Invalid Input");
-}
+// Line Break
+console.log("");
