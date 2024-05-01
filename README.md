@@ -1,6 +1,9 @@
 ## CLI Simple Calculator
 CLI Simple Calculator is a command-line interface (CLI) application written in JavaScript (JS) and TypeScript (TS). It provides basic arithmetic operations such as addition, subtraction, multiplication, and division through a user-friendly interface.
 
+## Developer
+Abdul Saboor
+
 ## Installation
 
 To use CLI Simple Calculator without cloning the repository or installing it locally, simply run the following npx command:
@@ -14,8 +17,6 @@ This command will fetch the latest version of the CLI Simple Calculator directly
 ## Usage
 After starting the application, follow the on-screen instructions to perform calculations. Simply select the desired operation (addition, subtraction, multiplication, or division) and input the numbers you wish to calculate.
 
-## Acknowledgments
-CLI Simple Calculator acknowledges the assistance of Code with Hamza for his valuable contributions and guidance during the development process.So, to thank him make sure to check out his YouTube channel "Code with Hamza"
 
 ## Features
 
@@ -27,8 +28,8 @@ Multiplication: Perform multiplication of two numbers.
 
 Division: Perform division of two numbers.
 
-## Developers
-Abdul Saboor
+## Acknowledgments
+CLI Simple Calculator acknowledges the assistance of Code with Hamza for his valuable contributions and guidance during the development process.So, to thank him make sure to check out his YouTube channel "Code with Hamza"
 
 ## License
 
