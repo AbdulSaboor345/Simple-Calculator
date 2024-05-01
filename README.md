@@ -1,38 +1,69 @@
-## CLI Simple Calculator
-CLI Simple Calculator is a command-line interface (CLI) application written in JavaScript (JS) and TypeScript (TS). It provides basic arithmetic operations such as addition, subtraction, multiplication, and division through a user-friendly interface.
+# CLI Simple Calculator
+## Project Overview
+CLI Simple Calculator is a command-line interface (CLI) application developed by Abdul Saboor. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division on two numbers. The user inputs the first number, then the second number, and finally selects the desired operation.
 
-## Developer
+## Developer:
 Abdul Saboor
 
-## Installation
+## Features:
+Performs addition, subtraction, multiplication, and division of two numbers.
 
-To use CLI Simple Calculator without cloning the repository or installing it locally, simply run the following npx command:
+User-friendly CLI interface.
+
+Easy to use and understand.
+
+## Technologies Used:
+TypeScript
+
+JavaScript
+
+Inquirer (for user input)
+
+Chalk (for styling)
+
+# Installation:
+## NPX Command:
+Open your terminal.
+
+Run the following command:
 
 Copy code
 
 npx abdul-saboor-simple-calculator
 
-This command will fetch the latest version of the CLI Simple Calculator directly from the GitHub repository and run it on your local machine. Make sure you have Node.js and npm installed on your system before running this command.
+## GitHub Way:
+Clone the repository from GitHub:
 
-## Usage
-After starting the application, follow the on-screen instructions to perform calculations. Simply select the desired operation (addition, subtraction, multiplication, or division) and input the numbers you wish to calculate.
+Copy code
 
+git clone https://github.com/AbdulSaboor345/Simple-Calculator.git
 
-## Features
+Navigate to the project directory:
 
-Addition: Perform addition of two numbers.
+cd [Your/Project/Directory]
 
-Subtraction: Perform subtraction of two numbers.
+Install dependencies:
 
-Multiplication: Perform multiplication of two numbers.
+Copy code
 
-Division: Perform division of two numbers.
+npm i inquirer
 
-## Acknowledgments
-CLI Simple Calculator acknowledges the assistance of Code with Hamza for his valuable contributions and guidance during the development process.So, to thank him make sure to check out his YouTube channel "Code with Hamza"
+npm i @types/inquirer
 
-## License
+Run the application:
 
-This project is licensed under the MIT License - see the "License.txt" file for details.
+Copy code
 
-Feel free to customize it further according to your project's specific needs!
+npm start
+
+## Contributions:
+Contributions to the project are welcome. Feel free to fork the repository, make changes, and submit pull requests.
+
+## License:
+This project is licensed under the MIT License. See the License.txt file for details.
+
+## Acknowledgments:
+Special thanks to Code with Hamza for inspiration and guidance.
+
+## Contact:
+For any inquiries or feedback, please contact Abdul Saboor via email at a.saboor.no.1@gmail.com 
